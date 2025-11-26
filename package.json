@@ -2,7 +2,6 @@
   "name": "book-api",
   "version": "1.0.0",
   "description": "도서 관리 프로그램 API",
-  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
