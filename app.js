@@ -114,6 +114,8 @@ app.use((req, res, next) => {
 
 
 // 5. 서버 실행
-app.listen(PORT, () => {
+const HOST = '0.0.0.0'; 
+
+app.listen(PORT, HOST, () => {
     console.log(`✅ 서버가 http://localhost:${PORT} 에서 실행 중입니다.`);
 });
